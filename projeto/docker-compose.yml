@@ -1,0 +1,35 @@
+version: "2"
+
+services:
+  db:
+    image: mysql:5.6
+    volumes:
+        - db_data:/var/lib/mysql
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: project
+      MYSQL_DATABASE: project
+      MYSQL_USER: project
+      MYSQL_PASSWORD: project
+
+  php:
+    build: "."
+    ports:
+      - "80:80"
+    volumes:
+      - "./:/var/www/html"
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    environment:
+     - PMA_HOST=db
+     - PMA_USER=project
+     - PMA_PASSWORD=project
+    restart: always
+    ports:
+     - 8080:80
+
+volumes:
+  db_data:
