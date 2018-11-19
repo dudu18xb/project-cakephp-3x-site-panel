@@ -37,24 +37,24 @@ class PagesController extends AppController
      * @return \Cake\Http\Response|null
      * @throws \Cake\Network\Exception\ForbiddenException When a directory traversal attempt.
      * @t<!-- Content Header (Page header) -->
-<section class="content-header">
+    <section class="content-header">
     <h1>
-        Bem Vindo a Tela Inicial
-</section>
+    Bem Vindo a Tela Inicial
+    </section>
 
-<section class="content">
+    <section class="content">
     <div class="row">
-        <div class="col-xs-12">
-            <div class="box">
-                <!-- /.box-header -->
-                <div class="box-body table-responsive no-padding">
+    <div class="col-xs-12">
+    <div class="box">
+    <!-- /.box-header -->
+    <div class="box-body table-responsive no-padding">
 
-                </div>
-            </div>
-        </div>
     </div>
-</section>
-hrows \Cake\Network\Exception\NotFoundException When the view file could not
+    </div>
+    </div>
+    </div>
+    </section>
+    hrows \Cake\Network\Exception\NotFoundException When the view file could not
      *   be found or \Cake\View\Exception\MissingTemplateException in debug mode.
      */
     public function display(...$path)

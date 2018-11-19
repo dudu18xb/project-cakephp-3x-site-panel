@@ -34,9 +34,11 @@ class User extends Entity
         'nome' => true,
         'role' => true,
         'password' => true,
+        'photo' => true,
         'created' => true,
         'modified' => true
     ];
+
 
     /**
      * Fields that are excluded from JSON versions of the entity.

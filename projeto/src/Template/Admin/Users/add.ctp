@@ -22,21 +22,22 @@
                 </div>
                 <!-- /.box-header -->
                 <!-- form start -->
-                <?= $this->Form->create($user, array('role' => 'form')) ?>
+                <?php echo $this->Form->create($user, ['type' => 'file']); ?>
                 <div class="box-body">
                     <?php
-                    echo $this->Form->input('status',['label' => 'Status']);
-                    echo $this->Form->input('login',['label' => 'Login']);
-                    echo $this->Form->input('nome',['Label' => 'Nome Completo']);
-                    echo $this->Form->input('role',['placeholder' => 'Insira o valor chamado: admin']);
-                    echo $this->Form->input('password',['label' => 'Senha']);
+                    echo $this->Form->control('status',['label' => 'Status']);
+                    echo $this->Form->control('login',['label' => 'Login']);
+                    echo $this->Form->control('nome',['Label' => 'Nome Completo']);
+                    echo $this->Form->control('role',['select' => 'Insira o valor chamado: admin']);
+                    echo $this->Form->control('password',['label' => 'Senha']);
+                    echo $this->Form->control('photo',['label' => 'Foto','type' => 'file']);
                     ?>
                 </div>
                 <!-- /.box-body -->
                 <div class="box-footer">
-                    <?= $this->Form->button(__('Salvar')) ?>
+                    <?php echo $this->Form->button(__('Salvar')) ?>
                 </div>
-                <?= $this->Form->end() ?>
+                <?php echo $this->Form->end() ?>
             </div>
         </div>
     </div>

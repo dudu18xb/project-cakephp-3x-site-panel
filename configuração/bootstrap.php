@@ -234,3 +234,5 @@ Configure::write('Theme', [
     'skin' => 'blue' // default is 'blue'
 ]);
 Plugin::load('Search');
+
+Plugin::load('Josegonzalez/Upload');

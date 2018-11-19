@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: db
--- Tempo de geração: 18/11/2018 às 19:23
+-- Tempo de geração: 19/11/2018 às 00:55
 -- Versão do servidor: 5.6.41
 -- Versão do PHP: 7.2.8
 
@@ -35,16 +35,17 @@ CREATE TABLE `users` (
   `nome` varchar(255) NOT NULL,
   `role` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
-  `created` datetime NOT NULL,
-  `modified` datetime DEFAULT NULL
+  `created` datetime DEFAULT NULL,
+  `modified` datetime DEFAULT NULL,
+  `photo` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Fazendo dump de dados para tabela `users`
 --
 
-INSERT INTO `users` (`id`, `status`, `login`, `nome`, `role`, `password`, `created`, `modified`) VALUES
-(1, 1, 'admin', 'Administrador', 'admin', '$2y$10$tDEG9tnyRq5LzLCZqlNWb.jkDh3jClcta1gLxfik4kPdPPd15VuDW', '2018-11-18 01:15:45', '2018-11-18 17:22:14');
+INSERT INTO `users` (`id`, `status`, `login`, `nome`, `role`, `password`, `created`, `modified`, `photo`) VALUES
+(1, 1, 'admin', 'Administrador', 'admin', '$2y$10$tDEG9tnyRq5LzLCZqlNWb.jkDh3jClcta1gLxfik4kPdPPd15VuDW', '2018-11-18 01:15:45', '2018-11-18 17:22:14', NULL);
 
 --
 -- Índices de tabelas apagadas
@@ -64,7 +65,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT de tabela `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

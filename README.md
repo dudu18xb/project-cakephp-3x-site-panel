@@ -6,6 +6,7 @@
 ### Configuração:
 * A pasta raiz está em projeto;
 * A Configuração de banco de dados está em docker-compose.yml, por padrão o Usuário, Senha e Database está como project;
+* No diretório configuração copie o aquivo composer.json e cole no diretório projetos/
 * localhost/ é o acesso ao site
 * localhost/admin é o acesso ao painel
 * No terminal digite "Docker-compose up -d" o docker irá criar um containers e imagens para este projeto.

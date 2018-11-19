@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db334dc9-c656-49a4-9fc0-7ceb1e48e070" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/project-cakephp-3x-site-panel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project-cakephp-3x-site-panel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuração/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/configuração/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuração/project.sql" beforeDir="false" afterPath="$PROJECT_DIR$/configuração/project.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto/src/Controller/Admin/PagesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/Controller/Admin/PagesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto/src/Controller/Admin/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/Controller/Admin/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto/src/Model/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/Model/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto/src/Model/Table/UsersTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/Model/Table/UsersTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto/src/Template/Admin/Pages/home.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/Template/Admin/Pages/home.ctp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto/src/Template/Admin/Users/add.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/Template/Admin/Users/add.ctp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto/src/Template/Admin/Users/edit.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/src/Template/Admin/Users/edit.ctp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,60 +22,53 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/projeto/composer.json</pharConfigPath>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-199928914">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="1722" />
+          <entry key="md" value="1775" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="1722" />
+          <entry key="Markdown" value="1775" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Dockerfile" value="2" />
+          <entry key="ctp" value="7" />
+          <entry key="php" value="6" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Dockerfile" value="2" />
+          <entry key="PHP" value="13" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="173">
-                <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projeto/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/projeto/src/Model/Table/UsersTable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            <state relative-caret-position="498">
+              <caret line="173" lean-forward="true" selection-start-line="173" selection-end-line="173" />
             </state>
           </provider>
         </entry>
@@ -77,6 +82,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/configuração/bootstrap.php" />
+        <option value="$PROJECT_DIR$/projeto/src/Controller/Admin/UsersController.php" />
+        <option value="$PROJECT_DIR$/projeto/src/Controller/Admin/PagesController.php" />
+        <option value="$PROJECT_DIR$/projeto/src/Controller/Admin/AppController.php" />
+        <option value="$PROJECT_DIR$/projeto/src/Template/Admin/Pages/home.ctp" />
+        <option value="$PROJECT_DIR$/projeto/src/Template/Admin/Users/add.ctp" />
+        <option value="$PROJECT_DIR$/projeto/src/Template/Admin/Users/edit.ctp" />
+        <option value="$PROJECT_DIR$/projeto/src/Template/Admin/Users/index.ctp" />
+        <option value="$PROJECT_DIR$/projeto/src/Model/Entity/User.php" />
+        <option value="$PROJECT_DIR$/projeto/src/Model/Table/UsersTable.php" />
       </list>
     </option>
   </component>
@@ -90,10 +105,10 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="294" />
+    <option name="y" value="48" />
+    <option name="width" value="1366" />
+    <option name="height" value="709" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -110,6 +125,11 @@
             <path>
               <item name="project-cakephp-3x-site-panel" type="b2602c69:ProjectViewProjectNode" />
               <item name="project-cakephp-3x-site-panel" type="462c0819:PsiDirectoryNode" />
+              <item name="configuração" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project-cakephp-3x-site-panel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-cakephp-3x-site-panel" type="462c0819:PsiDirectoryNode" />
               <item name="projeto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -123,7 +143,38 @@
               <item name="project-cakephp-3x-site-panel" type="462c0819:PsiDirectoryNode" />
               <item name="projeto" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project-cakephp-3x-site-panel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-cakephp-3x-site-panel" type="462c0819:PsiDirectoryNode" />
+              <item name="projeto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project-cakephp-3x-site-panel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-cakephp-3x-site-panel" type="462c0819:PsiDirectoryNode" />
+              <item name="projeto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="Table" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project-cakephp-3x-site-panel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-cakephp-3x-site-panel" type="462c0819:PsiDirectoryNode" />
+              <item name="projeto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project-cakephp-3x-site-panel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-cakephp-3x-site-panel" type="462c0819:PsiDirectoryNode" />
+              <item name="projeto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Template" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -160,25 +211,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542569219930</updated>
-      <workItem from="1542569222229" duration="1911000" />
+      <workItem from="1542569222229" duration="2566000" />
+      <workItem from="1542588810052" duration="1253000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1911000" />
+    <option name="totallyTimeSpent" value="3819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1366" height="709" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962063" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25341427" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32931036" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32931036" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -186,10 +233,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32931036" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32931036" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +254,59 @@
     <entry file="file://$PROJECT_DIR$/projeto/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="360">
+            <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuração/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="238" lean-forward="true" selection-start-line="238" selection-end-line="238" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projeto/src/Controller/Admin/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projeto/src/Controller/Admin/PagesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+          <folding>
+            <element signature="e#6#575#0#PHP" expanded="true" />
+            <element signature="e#610#634#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projeto/src/Controller/Admin/AppController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+          <folding>
+            <element signature="e#6#575#0#PHP" expanded="true" />
+            <element signature="e#609#640#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projeto/src/Template/Admin/Pages/home.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3915">
+          <caret line="278" lean-forward="true" selection-start-line="278" selection-end-line="278" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/projeto/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -209,13 +314,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="173">
-            <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/projeto/src/Template/Admin/Users/edit.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projeto/src/Template/Admin/Users/add.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projeto/src/Template/Admin/Users/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projeto/src/Model/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projeto/src/Model/Table/UsersTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="173" lean-forward="true" selection-start-line="173" selection-end-line="173" />
         </state>
       </provider>
     </entry>
